@@ -1,0 +1,57 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-align: center;
+    font-size: 13px;
+    padding: 3px;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+    text-decoration-line: none;
+}
+
+a :hover {
+    text-decoration-line: underline;
+}
+
+.content {
+    text-align: center;
+    padding-top: 200px; 
+}
+
+.searchnav {
+    padding-top: 15px;
+    
+}
+
+.searchnav ::placeholder {
+    padding-left: 10px;
+}
+
+#searchbar {
+    border-radius: 24px;
+    height: 35px;
+    width: 482px;
+    border: 1px solid #dfe1e5;
+}
+
+#google-apps {
+    height: 20px;
+}
